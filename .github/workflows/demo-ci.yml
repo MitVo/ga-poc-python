@@ -50,3 +50,4 @@ jobs:
           REPO_NAME: ${{ env.REPO_NAME }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          module_name: 'poc_module'

@@ -1,5 +1,10 @@
 # Gitmoji Changelog ga-poc-python 🎈
 
+# [1.1.0](https://github.com/MitVo/ga-poc-python/compare/1.0.0...1.1.0) (2025-06-06)
+
+## ✨ New Features
+-  Added dependency ([`6521b79`](https://github.com/MitVo/ga-poc-python/commits/6521b79) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-06 :12:16)
+
 # v1.0.0 (2025-06-06)
 
 ## ✨ New Features

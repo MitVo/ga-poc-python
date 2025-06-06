@@ -45,8 +45,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install build and twine
-        run: |
-          python -m pip install --upgrade pip install build twine  
+        run: python -m pip install --upgrade pip build twine
 
       - name: Extract repository name
         run: |

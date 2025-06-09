@@ -9,8 +9,7 @@ on:
     branches:
       - master
   workflow_dispatch:
-env:
-  PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+env: testing
 jobs:
   build_and_test:
     runs-on: ubuntu-latest

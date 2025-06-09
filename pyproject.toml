@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "poc-python-smvers"
-version = "1.4.2"
+version = "1.4.3"
 
 description = "A proof-of-concept Python project using semantic versioning"
 authors = [

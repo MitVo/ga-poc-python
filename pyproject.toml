@@ -15,7 +15,6 @@ dependencies = [
 ]
 requires-python = ">=3.9"
 
-
 [tool.setuptools]
 py-modules = ["poc-python-smvers"]
 include-package-data = true

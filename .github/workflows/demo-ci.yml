@@ -45,7 +45,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install build and twine
-        run: python -m pip install --upgrade pip build twine
+        run: python -m pip install --upgrade pip build twine bump2version
 
       - name: Extract repository name
         run: |
@@ -53,7 +53,7 @@ jobs:
           echo "REPO_NAME=${REPO_NAME}" >> $GITHUB_ENV 
 
       - name: Semantic Release Custom Action
-        uses: MitVo/semantic-release-action@python-smvers
+        uses: MitVo/semantic-release-python@master
         env:
           REPO_NAME: ${{ env.REPO_NAME }}
         with:

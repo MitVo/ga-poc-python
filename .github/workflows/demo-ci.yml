@@ -63,4 +63,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           module_name: 'poc_module'
-          pypi_token: ${{ secrets.PYPI_TOKEN }}
+
+      - name: Publish
+        run: |
+          python -m build
+          twine upload dist/* --repository-url https://upload.pypi.org/legacy/ --verbose
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}

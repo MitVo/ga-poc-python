@@ -1,5 +1,10 @@
 # Gitmoji Changelog ga-poc-python 🎈
 
+# [1.4.4](https://github.com/MitVo/ga-poc-python/compare/1.4.3...1.4.4) (2025-06-09)
+
+## 🔨 Refactor
+-  Deleted unused configuration ([`be32e80`](https://github.com/MitVo/ga-poc-python/commits/be32e80) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-09 :16:54)
+
 # [1.4.3](https://github.com/MitVo/ga-poc-python/compare/1.4.2...1.4.3) (2025-06-09)
 
 # [1.4.2](https://github.com/MitVo/ga-poc-python/compare/1.4.1...1.4.2) (2025-06-09)

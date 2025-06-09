@@ -64,6 +64,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           module_name: 'poc_module'
 
+      - name: Validate PyPI Token
+        run: |
+          if [ -z "${{ secrets.PYPI_TOKEN }}" ]; then
+            echo "Error: PYPI_TOKEN is not set.";
+            exit 1;
+          fi    
+
       - name: Publish
         run: |
           python -m build
@@ -71,3 +78,6 @@ jobs:
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+
+      - name: Verify Token
+        run: twine check dist/*

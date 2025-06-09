@@ -9,6 +9,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+env:
+  PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
@@ -77,7 +79,7 @@ jobs:
           twine upload dist/* --repository-url https://upload.pypi.org/legacy/ --verbose
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_PASSWORD: PYPI_TOKEN
 
       - name: Verify Token
         run: twine check dist/*

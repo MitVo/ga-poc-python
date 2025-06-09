@@ -1,5 +1,7 @@
 # Gitmoji Changelog ga-poc-python 🎈
 
+# [1.4.2](https://github.com/MitVo/ga-poc-python/compare/1.4.1...1.4.2) (2025-06-09)
+
 # [1.4.1](https://github.com/MitVo/ga-poc-python/compare/1.4.0...1.4.1) (2025-06-09)
 
 # [1.4.0](https://github.com/MitVo/ga-poc-python/compare/1.3.1...1.4.0) (2025-06-09)

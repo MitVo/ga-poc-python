@@ -32,7 +32,6 @@ jobs:
           REPO_NAME: ${{ env.REPO_NAME }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          module_name: 'poc_module'
 
       - name: Tag generated
         run: echo "RELEASE_TAG=${{ steps.semantic_release.outputs.release_version }}" >> $GITHUB_ENV

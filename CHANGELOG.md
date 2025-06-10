@@ -1,5 +1,18 @@
 # Gitmoji Changelog ga-poc-python 🎈
 
+# [2.0.0](https://github.com/MitVo/ga-poc-python/compare/1.4.4...2.0.0) (2025-06-10)
+
+## 🐛 Bug Fixes
+-  Fixed inputs release workflow ([`257fc1a`](https://github.com/MitVo/ga-poc-python/commits/257fc1a) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-10 :16:27)
+
+## 💥 Breaking Changes
+-  workflows modified ([`5fb040e`](https://github.com/MitVo/ga-poc-python/commits/5fb040e) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-10 :16:27)
+
+## 🔨 Refactor
+-  modified release workflow ([`681dd2c`](https://github.com/MitVo/ga-poc-python/commits/681dd2c) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-10 :16:27)
+
+-  Modified trigger ([`0cbfbbc`](https://github.com/MitVo/ga-poc-python/commits/0cbfbbc) 👷 mitzyvalenciaordonez &#x1F4C5; 2025-06-10 :16:27)
+
 # [1.4.4](https://github.com/MitVo/ga-poc-python/compare/1.4.3...1.4.4) (2025-06-09)
 
 ## 🔨 Refactor

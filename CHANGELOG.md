@@ -1,5 +1,10 @@
 # Gitmoji Changelog ga-poc-python 🎈
 
+# [2.1.0](https://github.com/MitVo/ga-poc-python/compare/2.0.0...2.1.0) (2025-09-02)
+
+## ✨ New Features
+-  Update main.py ([`8f3de49`](https://github.com/MitVo/ga-poc-python/commits/8f3de49) 👷 Mitzy Valencia &#x1F4C5; 2025-09-02 :11:44)
+
 # [2.0.0](https://github.com/MitVo/ga-poc-python/compare/1.4.4...2.0.0) (2025-06-10)
 
 ## 🐛 Bug Fixes
